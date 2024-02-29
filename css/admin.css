@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: start;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 100dvh;
+    padding: 0 1.7rem;
+    color: #fff;
+    background: #E1414C;    
+}
+
+.logo {
+    height: 80px;
+    padding: 16px;
+}
+
+.menu {
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.menu li:hover, .active {
+    background: #e0e0e058;
+}
+
+.menu a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu a i {
+    font-size: .8rem;
+}
+
+.logout {
+    position: fixed;
+    bottom: 0;
+}
+
+.main--content {
+    position: relative;
+    background: white;
+    width: 100%;
+    background-size: 100%;
+    padding: 1rem;
+}
+
+.header--wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #E1414C;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+
+.header--title {
+    color: white;
+}
+
+

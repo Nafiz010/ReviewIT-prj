@@ -1,0 +1,53 @@
+.home {
+    background-color: #ede2e2;
+    padding: 0 7vw;
+}
+
+.main_slide {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.main_slide div:nth-child(2) {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.main_slide div:nth-child(1) {
+    padding-top: 20px;
+    flex: 1;
+    font-size: 100px;
+}
+
+.main_slide div:nth-child(1) {
+    font-size: 18px;
+    padding: 20px 0;
+}
+
+.main_slide div:nth-child(1) span {
+    color: rgb(253, 57, 8);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: rgb(253, 176, 34);
+}
+
+.progress-label-left {
+    float: left;
+    margin-right: 0.5em;
+    line-height: 1em;
+}
+
+.progress-label-right {
+    float: right;
+    margin-left: 0.3em;
+    line-height: 1em;
+}
+
+.star-light {
+    color: #e9ecef;
+}
+
+
